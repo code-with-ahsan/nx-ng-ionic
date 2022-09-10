@@ -1,0 +1,14 @@
+<ul>
+  <li
+    class="py-2 my-2 flex gap-4 border-radius rounded-md px-4 border border-slate-100"
+    *ngFor="let user of users$ | async"
+  >
+    <div>
+      <img class="rounded-full" [src]="user.picture.thumbnail" />
+    </div>
+    <div>
+      <div>{{ user.name.first }} {{ user.name.last }}</div>
+      <div class="text-sm text-slate-500">{{ user.email }}</div>
+    </div>
+  </li>
+</ul>

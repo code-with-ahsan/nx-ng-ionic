@@ -1,7 +1,7 @@
 {
   "projectType": "application",
   "sourceRoot": "apps/ru-web/src",
-  "prefix": "nx-ng-ionic",
+  "prefix": "ruw",
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
